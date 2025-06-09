@@ -5,8 +5,8 @@
 Privacy Pass                                              S. Hendrickson
 Internet-Draft                                                    Google
 Intended status: Standards Track                              C. A. Wood
-Expires: 28 July 2025                                   Cloudflare, Inc.
-                                                         24 January 2025
+Expires: 11 December 2025                               Cloudflare, Inc.
+                                                             9 June 2025
 
 
                 Privacy Pass Token Expiration Extension
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 July 2025.
+   This Internet-Draft will expire on 11 December 2025.
 
 Copyright Notice
 
