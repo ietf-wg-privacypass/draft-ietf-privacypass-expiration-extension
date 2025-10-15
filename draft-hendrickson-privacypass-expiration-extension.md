@@ -122,7 +122,7 @@ computing the expiration timestamp, e.g., some function F(current time). This
 function would round the current timestamp, resulting in a loss of precision but overall
 less unique value. One way to implement this function would by rounding the timestamp
 to the nearest hour, day, or week. Of course, this does not account for clock skew,
-which occurs with some non-neglgiible probability in practice {{?CLOCK-SKEW=DOI.10.1145/3133956.3134007}}.
+which occurs with some non-negligible probability in practice {{?CLOCK-SKEW=DOI.10.1145/3133956.3134007}}.
 
 An alternative implementation strategy for consistency is to run some sort of consistency
 check to ensure that the Client uses a value that is consistent with other Clients. Several
