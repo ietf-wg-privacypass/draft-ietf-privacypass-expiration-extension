@@ -3,7 +3,7 @@ title: "Privacy Pass Token Expiration Extension"
 abbrev: "Privacy Pass Token Expiration Extension"
 category: std
 
-docname: draft-hendrickson-privacypass-expiration-extension-latest
+docname: draft-ietf-privacypass-expiration-extension-latest
 submissiontype: IETF
 number:
 date:
@@ -18,7 +18,7 @@ venue:
   group: "Privacy Pass"
   type: "Working Group"
   mail: "privacy-pass@ietf.org"
-  github: "chris-wood/draft-hendrickson-privacypass-expiration-extension"
+  github: "ietf-wg-privacypass/draft-ietf-privacypass-expiration-extension"
 
 author:
  -
@@ -31,9 +31,9 @@ author:
     email: caw@heapingbits.net
 
 normative:
-   AUTH-EXTENSIONS: I-D.wood-privacypass-auth-scheme-extensions
+   AUTH-EXTENSIONS: I-D.ietf-privacypass-auth-scheme-extensions
    AUTH-SCHEME: I-D.ietf-privacypass-auth-scheme
-   EXTENDED-ISSUANCE: I-D.hendrickson-privacypass-public-metadata-issuance
+   EXTENDED-ISSUANCE: I-D.ietf-privacypass-public-metadata-issuance
    BASIC-ISSUANCE: I-D.ietf-privacypass-protocol
    ARCHITECTURE: I-D.ietf-privacypass-architecture
    CONSISTENCY: I-D.ietf-privacypass-key-consistency
