@@ -5,12 +5,12 @@
 Privacy Pass                                              S. Hendrickson
 Internet-Draft                                                    Google
 Intended status: Standards Track                              C. A. Wood
-Expires: 28 July 2025                                   Cloudflare, Inc.
-                                                         24 January 2025
+Expires: 15 November 2026                               Cloudflare, Inc.
+                                                             14 May 2026
 
 
                 Privacy Pass Token Expiration Extension
-       draft-hendrickson-privacypass-expiration-extension-latest
+           draft-ietf-privacypass-expiration-extension-latest
 
 Abstract
 
@@ -22,8 +22,8 @@ About This Document
    This note is to be removed before publishing as an RFC.
 
    Status information for this document may be found at
-   https://datatracker.ietf.org/doc/draft-hendrickson-privacypass-
-   expiration-extension/.
+   https://datatracker.ietf.org/doc/draft-ietf-privacypass-expiration-
+   extension/.
 
    Discussion of this document takes place on the Privacy Pass Working
    Group mailing list (mailto:privacy-pass@ietf.org), which is archived
@@ -31,7 +31,7 @@ About This Document
    at https://www.ietf.org/mailman/listinfo/privacy-pass/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/chris-wood/draft-hendrickson-privacypass-
+   https://github.com/ietf-wg-privacypass/draft-ietf-privacypass-
    expiration-extension.
 
 Status of This Memo
@@ -49,11 +49,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 July 2025.
+   This Internet-Draft will expire on 15 November 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -168,7 +168,7 @@ Table of Contents
    timestamp, resulting in a loss of precision but overall less unique
    value.  One way to implement this function would by rounding the
    timestamp to the nearest hour, day, or week.  Of course, this does
-   not account for clock skew, which occurs with some non-neglgiible
+   not account for clock skew, which occurs with some non-negligible
    probability in practice [CLOCK-SKEW].
 
    An alternative implementation strategy for consistency is to run some
@@ -242,10 +242,10 @@ Table of Contents
    [AUTH-EXTENSIONS]
               Hendrickson, S. and C. A. Wood, "The PrivateToken HTTP
               Authentication Scheme Extensions Parameter", Work in
-              Progress, Internet-Draft, draft-wood-privacypass-auth-
-              scheme-extensions-02, 29 March 2024,
-              <https://datatracker.ietf.org/doc/html/draft-wood-
-              privacypass-auth-scheme-extensions-02>.
+              Progress, Internet-Draft, draft-ietf-privacypass-auth-
+              scheme-extensions-03, 13 May 2026,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-
+              privacypass-auth-scheme-extensions-03>.
 
    [AUTH-SCHEME]
               Pauly, T., Valdez, S., and C. A. Wood, "The Privacy Pass
@@ -269,7 +269,12 @@ Table of Contents
               draft-ietf-privacypass-key-consistency-01>.
 
    [EXTENDED-ISSUANCE]
-              "*** BROKEN REFERENCE ***".
+              Hendrickson, S. and C. A. Wood, "Privacy Pass Issuance
+              Protocols with Public Metadata", Work in Progress,
+              Internet-Draft, draft-ietf-privacypass-public-metadata-
+              issuance-03, 13 May 2026,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-
+              privacypass-public-metadata-issuance-03>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
