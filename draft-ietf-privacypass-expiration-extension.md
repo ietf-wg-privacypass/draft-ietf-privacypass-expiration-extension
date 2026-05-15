@@ -143,7 +143,7 @@ Attester, and Issuer deployments as described in {{Section 4.4 of ARCHITECTURE}}
 is positioned to ensure that Clients do not choose consistent yet unique values. General purpose
 approaches to ensure that some minimum number of Clients share the same expiration timestamp
 are outside the scope of this document; indeed, this problem is not unique to Privacy Pass and
-is common to other privacy-related protocols such as Oblivious HTTP {{?OHTTP=I-D.ietf-ohai-oblivious-http}}.
+is common to other privacy-related protocols such as Oblivious HTTP {{?OHTTP=RFC9458}}.
 
 # Security Considerations
 
